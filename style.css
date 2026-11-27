@@ -155,7 +155,7 @@ em{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--metal)
 .foot-brand span{font-size:.64rem;letter-spacing:.3em;text-transform:uppercase;color:var(--mut)}
 .footer address{font-style:normal;color:var(--mut);font-size:.9rem}
 .foot-links{display:flex;gap:2rem;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase}
-.foot-links a{color:var(--mut);transition:color .3s}.foot-links a:hover{color:var(--txt)}
+.foot-links a{display:inline-flex;align-items:center;gap:.55rem;color:var(--mut);transition:color .3s}.foot-links a svg{flex:none}.foot-links a:hover{color:var(--txt)}
 .copy{text-align:center;color:#55555a;font-size:.72rem;letter-spacing:.1em;margin-top:3rem}
 
 /* responsivo */
